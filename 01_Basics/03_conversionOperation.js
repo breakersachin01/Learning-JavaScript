@@ -72,6 +72,48 @@
 
 // let someNumber=33                //33
 // let someNumber=false             //false
-let stringNumber= String(someNumber);
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// let stringNumber= String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
+
+
+/*************************OPERATIONS****************************************/ 
+// let value = 3
+// let negVal = -value           //-3
+// console.log(negVal);
+// console.log();
+
+// console.log(3+2);             //add
+// console.log(3-2);             //sub
+// console.log(3*2);             //multiple
+// console.log(3/2);             //devide
+// console.log(3%2);             //modulus(remainder)
+// console.log(2**3);            //power
+// console.log();
+
+// let str1 = "Hello"
+// let str2 = " Sachin"
+// let str3 = str1 + str2;
+// console.log(str3);
+// console.log();
+
+// console.log("1"+2);        //12
+// console.log(1+"2");        //12
+// console.log("1"+2+2);      //122
+// console.log(1+2+"2");      //32
+
+// let num1, num2, num3;
+// num1=num2=num3=2+2;
+// console.table([num1,num2,num3]);
+
+// let gameCounter = 100
+// // gameCounter++;
+// ++gameCounter
+// console.log(gameCounter);
+
+let x = 3;
+let y = x++;
+console.log(`x:${x}, y:${y}`);
+let a = 3;
+let b = ++a;
+console.log(`a:${a}, b:${b}`);
