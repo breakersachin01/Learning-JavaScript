@@ -21,19 +21,19 @@ ex:--
 
 
 /*
-2.Non-Primitive DataType(Reference Type):
+2.Non-Primitive DataType("or" Reference Type):
 Types->>> Array, Object, Functions
 */
 
-const heros = ["shaktiman", "naagraj", "doga"];            //Array
-let myObj = {name:"sachin", age:22};                       //Object
-console.log(heros);
-console.log(myObj.name);
-console.log(myObj.age);
+// const heros = ["shaktiman", "naagraj", "doga"];            //Array
+// let myObj = {name:"sachin", age:22};                       //Object
+// console.log(heros);
+// console.log(myObj.name);
+// console.log(myObj.age);
 
-const myFunction = function(){console.log("Hello World");};
-console.log(myFunction());
-console.log(typeof(myFunction));  
+// const myFunction = function(){console.log("Hello World");};
+// console.log(myFunction());
+// console.log(typeof(myFunction));  
 
 
 
@@ -51,3 +51,27 @@ console.log(typeof(myFunction));
        Arrays  =>  object
        Function  =>  function
        Object  =>  object*/
+
+
+/************************Memory: (Stack and Heap memory)*****************************/
+
+// Stack memory(used where primitive type), Heap memory(used where non-primitive). ex:-
+
+//stack
+let myYoutubename = "sachinvishwakarmadotcom";
+let anothername = myYoutubename;
+anothername = "chaiaurjavascript";      
+console.log(myYoutubename);           //sachinvishwakarmadotcom (value not change becos it give the copy of our value to anothername.)
+console.log(anothername);             //chaiaurjavascript
+
+//Heap
+let userOne={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "sachin@gmail.com";
+
+console.log(userOne.email);          //sachin@gmail.com
+console.log(userTwo.email);          //sachin@gmail.com
