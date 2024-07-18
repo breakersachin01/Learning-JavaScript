@@ -28,4 +28,4 @@
 // console.log(Math.max(6,7,3,5));                      //max() funtion (to find the maximum value)
 
 console.log(Math.random()*10000);                       //random() funtion (basicaly used for puting random otp it will give you the random number between 0 to 1 But int the decimal formate)
-console.log(Math.floor(Math.random()*10000))            // i want 4 digit number so i multiple by 10000.
+console.log(Math.floor(Math.random()*10000));          // i want 4 digit number so i multiple by 10000.
