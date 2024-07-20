@@ -56,9 +56,33 @@ const users = [                     //array with in it its objects
 ]
 
 // console.log(users[0].email);
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));            //it will store the all keys only of an Object and put it into an array.
-console.log(Object.values(tinderUser));          //it will store the all values only of an Object and put it into an array.
-console.log(Object.entries(tinderUser))          //keys&value of an Object are treate as a single element and that element are stored in array.
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));  //it will check property of an  object instead of checking manually we can do like this also.
+// console.log(Object.keys(tinderUser));            //it will store the all keys only of an Object and put it into an array.
+// console.log(Object.values(tinderUser));          //it will store the all values only of an Object and put it into an array.
+// console.log(Object.entries(tinderUser))          //keys&value of an Object are treate as a single element and that element are stored in array.
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));  //it will check property of an  object instead of checking manually we can do like this also.
+
+/*++++++++++++++++++++++++++++Object de-Structure and JSON API++++++++++++++++++++++++++++++++++++++++*/
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// const {courseInstructor} = course           //Instead of writting this "console.log(course.courseInstructor)" again and again we can write this also.
+// console.log(courseInstructor);
+
+////****Object de-Structure===>
+const {courseInstructor: inst} = course       //if we have tomuch long object then we can represent it as like this.
+console.log(inst);
+
+////*****JSON====>>
+
+// {                                   //JSON formate
+//     "name": "sachin",
+//     "coursename": "JS in hindi",
+//     "price": "free"
+// }
+
