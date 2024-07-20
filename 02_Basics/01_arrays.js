@@ -5,7 +5,7 @@
 -> in JavaScript: Arrays are Object Type.
 */ 
 
-// const myArr = [7, 5, 8, 9, 2, 6];       //declaration of array
+const myArr = [7, 5, 8, 9, 2, 6];       //declaration of array
 // console.log(myArr);                     //print array
 // console.log(typeof(myArr));
 // console.log(myArr[2]);                  //access element by indexes basis
@@ -21,8 +21,9 @@ const  myArr1 = ['j', 'd', 90, 34, "Shaktiman", "Naagraj"];         //in JavaScr
 // myArr1.push(869);
 // myArr1.pop()                            //"pop()" method is used to remove the last element from the array.
 // myArr1.unshift(580);                    //"unshift()" method is used to add the element at the front of array(But this is not optimize way becos we need to shift all the element.)
-// myArr1.shift();                            //"shift()" method is used to remove the front element from the array.
-
+// myArr1.shift();                         //"shift()" method is used to remove the front element from the array.
+// console.log(myArr.toSorted());          //"toSorted()" method is used to sort the array.
+// console.log(myArr.reverse());           //"reverse()" method is used to reverse the array.
 // console.log(myArr1);
 
 // console.log(myArr1.includes(90));         //"includes()" method is used to check whether that element is present or not ==> it will return the "boolean value."
@@ -34,11 +35,11 @@ const  myArr1 = ['j', 'd', 90, 34, "Shaktiman", "Naagraj"];         //in JavaScr
 // console.log(typeof(newArr));              //String dataType.
 
 // //==> slice, splice
-console.log("A ", myArr1);
-const myn1 = myArr1.slice(1,3);             //"slice()" method is used to print a subArray used same property as String substring() funtion used.
-console.log(myn1);                          //used indx of 1 but not used indx of 3 in "slice()" and do not change the array.
-console.log("B ", myArr1);
+// console.log("A ", myArr1);
+// const myn1 = myArr1.slice(1,3);             //"slice()" method is used to print a subArray used same property as String substring() funtion used.
+// console.log(myn1);                          //used indx of 1 but not used indx of 3 in "slice()" and do not change the array.
+// console.log("B ", myArr1);
 
-const myn2 = myArr1.splice(1,3);            //"splice()" it also used for same thing but it will include the 3 indx as well and main thing is it will remove the element from the array from 1-3 indexes.
-console.log("C ",myArr1);
-console.log(myn2);
+// const myn2 = myArr1.splice(1,3);            //"splice()" it also used for same thing but it will include the 3 indx as well and main thing is it will remove the element from the array from 1-3 indexes.
+// console.log("C ",myArr1);
+// console.log(myn2);
