@@ -1,4 +1,4 @@
-// Dates
+// Dates and times
 let myDate  = new Date();          //Dates values always comes into millisecond so we need to convert it using funtions.
 // console.log(myDate);                             
 // console.log(myDate.toString());
