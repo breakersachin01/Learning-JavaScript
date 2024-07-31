@@ -39,3 +39,4 @@ let k = "Mo n  ey";
 
 let arr = k.split(" ");
 console.log(arr); 
+console.log(arr);
