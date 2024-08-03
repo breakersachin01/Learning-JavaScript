@@ -1,2 +1,2 @@
 #=>>The purpose of using the DOM (Document Object Model) in JavaScript is to manipulate and interact with the structure, style, and content of a web document dynamically.
-DOM = > console, Element Selection, Change HTML and CSS.
+DOM = > console, Element Selection, Change HTML and CSS. Event Listners
