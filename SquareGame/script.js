@@ -8,8 +8,16 @@ s1.addEventListener("mouseenter",function(){              //mouseenter == mousem
     let r = Math.floor(Math.random()*100);
     s1.innerHTML= `<h1>${r}</h1>`;
 });
+s1.addEventListener("dblclick",function(){              //dblclick   ==>> after double clicked on ele1 show the random color,
+    let a = Math.floor(Math.random()*256);
+    let b = Math.floor(Math.random()*256);
+    let c = Math.floor(Math.random()*256);
+    s1.style.backgroundColor = `rgb(${a},${b},${c})`;
+});
+
 s1.addEventListener("mouseleave",function(){              
     s1.innerHTML= `<h1>1</h1>`;
+    s1.style.backgroundColor = "white";
 });
 
 //2)style on box-2:  print different different color in it.
